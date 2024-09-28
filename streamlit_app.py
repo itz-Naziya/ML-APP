@@ -10,7 +10,7 @@ page = st.sidebar.radio("Select a page:", ("Page 1", "Page 2"), index=0)  # Page
 
 # --- PAGE 1 ---
 if page == "Page 1":
-    st.title("Streamlit Comprehensive Features Demo")
+    st.title("Streamlit Features")
 
     # --- SLIDER ---
     slider_value = st.slider("Select a value", 0, 100)
